@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.xnio</groupId>
+  <artifactId>xnio-samples</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>XNIO Samples</name>
+
+  <dependencies>
+  	<dependency>
+  		<groupId>org.jboss.xnio</groupId>
+  		<artifactId>xnio-api</artifactId>
+  		<version>3.0.7.GA</version>
+  	</dependency>
+    <dependency>
+        <groupId>org.jboss.xnio</groupId>
+        <artifactId>xnio-nio</artifactId>
+        <version>3.0.7.GA</version>
+        <scope>runtime</scope>
+    </dependency>
+        <dependency>
+        <groupId>org.jboss.logging</groupId>
+        <artifactId>jboss-logging</artifactId>
+        <version>3.1.2.GA</version>
+        <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+
+  <properties>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <inceptionYear>2013</inceptionYear>
+  <developers><developer><name>Bernd Eckenfels</name></developer></developers>
+  <licenses>
+  	<license>
+  		<name>Apache License 2.0</name>
+  		<url>http://www.spdx.org/licenses/Apache-2.0</url>
+  	</license>
+  </licenses>
+  <scm><url>http://github.com/ecki/xnio-samples</url></scm>
+</project>
