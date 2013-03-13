@@ -1,4 +1,4 @@
-package org.jboss.xnio.samples;
+package org.xnio.samples;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
