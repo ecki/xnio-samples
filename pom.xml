@@ -6,16 +6,20 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>XNIO Samples</name>
 
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
   <dependencies>
   	<dependency>
   		<groupId>org.jboss.xnio</groupId>
   		<artifactId>xnio-api</artifactId>
-  		<version>3.0.7.GA</version>
+  		<version>3.1.0.Final</version> <!--  or: <version>3.0.9.GA</version> -->
   	</dependency>
     <dependency>
         <groupId>org.jboss.xnio</groupId>
         <artifactId>xnio-nio</artifactId>
-        <version>3.0.7.GA</version>
+        <version>3.1.0.Final</version> <!--  or: <version>3.0.9.GA</version> -->
         <scope>runtime</scope>
     </dependency>
         <dependency>
@@ -25,10 +29,6 @@
         <scope>runtime</scope>
     </dependency>
   </dependencies>
-
-  <properties>
-  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
 
   <inceptionYear>2013</inceptionYear>
   <developers><developer><name>Bernd Eckenfels</name></developer></developers>
