@@ -14,12 +14,12 @@
   	<dependency>
   		<groupId>org.jboss.xnio</groupId>
   		<artifactId>xnio-api</artifactId>
-  		<version>3.1.0.Final</version> <!--  or: <version>3.0.9.GA</version> -->
+  		<version>3.1.0.Finak</version>
   	</dependency>
     <dependency>
         <groupId>org.jboss.xnio</groupId>
         <artifactId>xnio-nio</artifactId>
-        <version>3.1.0.Final</version> <!--  or: <version>3.0.9.GA</version> -->
+        <version>3.1.0.Final</version>
         <scope>runtime</scope>
     </dependency>
         <dependency>
